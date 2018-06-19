@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title>Crystal Game</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card mb-2">
+                    <h3 class="card-header">Pick the right crystals and try to match the target number.</h3>
+                    <div class="card-body text-center">
+                        <img class="img-fluid port-image" src="Assets/images/mind.png" alt="" class="img" data-myvalue="1" style="position:relative; top:50px; left: 80px; height: 200px">
+                        <img class="img-fluid port-image" src="Assets/images/power.png" alt="" class="img2" data-myvalue="2" style="position:relative; top:50px; left: 80px; height: 200px">
+                        <img class="img-fluid port-image" src="Assets/images/reality.png" alt="" class="img3" data-myvalue="3" style="position:relative; top:50px; left: 80px; height: 200px">
+                        <img class="img-fluid port-image" src="Assets/images/soul.png" alt="" class="img4" data-myvalue="4" style="position:relative; top:50px; left: 80px; height: 200px">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card">
+                    <h3 class="card-header">Result</h3>
+                    <div class="card-body">
+                        <h1 id="target"></h1>
+                        <h1 id="running-total"></h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <h3 class="card-header"></h3>
+                    <div class="card-body">
+                        <h3 id="result"></h3>
+                        <hr>
+                        <h1 id="wins"></h1>
+                        <hr>
+                        <h1 id="losses"></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
